@@ -1,2 +1,2 @@
 # RIHA-Frontend
-RIHA frontend (HTML/CSS) on which all else modules are based.
+RIHA frontend (PSD/HTML/SCSS/JS/images/prototype) on which all other RIHA modules are based.
