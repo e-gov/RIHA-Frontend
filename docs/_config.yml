@@ -1,0 +1,11 @@
+# Üldised määratlused
+title: RIHA prototype
+baseurl: "https://e-gov.github.io/RIHA-Frontend"
+
+defaults:
+  -
+    scope:
+      path: "" # Kõik failid
+    values:
+      layout: "default"
+
