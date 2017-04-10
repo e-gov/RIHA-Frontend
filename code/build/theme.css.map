@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "theme.css",
+	"sources": [
+		"../src/styles/theme.scss"
+	],
+	"mappings": "AAAA,AAEQ,OAFD,CACH,WAAW,CACP,WAAW,CAAC;EAClB,gBAAgB,EAAE,KAAG;EACrB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,kBAAI;CACjC",
+	"names": []
+}

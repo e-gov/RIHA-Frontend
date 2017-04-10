@@ -1,0 +1,26 @@
+{
+  "name": "default_proto",
+  "version": "1.0.0",
+  "description": "default html proto",
+  "main": "index.php",
+  "scripts": {
+    "postinstall": "bower install",
+    "watch": "node-sass --watch --output-style expanded -o build src/styles/ --source-map true",
+    "build": "del build/*.css & node-sass --output-style expanded -o build src/styles/app.scss --source-map true & npm run autoprefix & npm run minify",
+    "autoprefix": "postcss --use autoprefixer --autoprefixer.browsers 'Chrome >= 46,Firefox >= 42,ie >= 10,Safari >= 9,iOS >= 9' -d build build/app.css",
+    "minify": "node-sass --output-style compressed -o build build/app.css --source-map true"
+    
+  },
+  "author": "WE",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+      "autoprefixer": "^6.5.0",
+    "bower": "^1.7.9",
+      "del-cli": "^0.2.0",
+    "node-sass": "^3.10.0",
+    "uglify-js": "^2.7.3",
+      "postcss": "^5.2.4",
+    "postcss-cli": "^2.6.0"
+  }
+}

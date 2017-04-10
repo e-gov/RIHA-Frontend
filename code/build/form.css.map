@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "form.css",
+	"sources": [
+		"../src/styles/form.scss"
+	],
+	"mappings": "AAAA,AAAA,WAAW,AACN,IAAI,CAAA;EACD,WAAW,EAAE,IAAK;EAClB,YAAY,EAAE,IAAK;CACtB",
+	"names": []
+}
