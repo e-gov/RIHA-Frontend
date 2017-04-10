@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Üldised määratlused
 title: RIHA prototype
 baseurl: "https://e-gov.github.io/RIHA-Frontend"
@@ -9,7 +8,3 @@ defaults:
       path: "" # Kõik failid
     values:
       layout: "default"
-
-=======
-theme: jekyll-theme-architect
->>>>>>> 2fe0f0b199b0da93ccc87f5db9e8651d566a3292
