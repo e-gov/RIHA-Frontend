@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>RIHA HTML prototype</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="bower_components/datatables/media/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="build/app.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="nav-overlay"></div>
+            <div class="header-top hidden-xs-down">
+                <div class="container">
+                    <div class="left">
+                        <div class="btn-group hidden-sm-down">
+                            <button type="button" class="btn btn-outline-primary btn-sm"><span class="fa fa-universal-access"></span><span>Ligipääsetavus</span></button>
+                        </div>
+                        <div class="links hidden-sm-down">
+                            <a href="#">Tagasiside</a>
+                        </div>
+                        <div id="langbar">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">In English</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">по-русски</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right d-flex align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary btn-sm"><span>Logi Sisse</span><span class="fa fa-user"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <nav class="navbar  navbar-toggleable-xl">
+                    <div class="container">
+                        <a class="navbar-brand" href="_index.php"><img src="images/base/logo.svg" width="200" height="35" alt="Logo"></a>
+                        <nav class="collapse navbar-collapse" id="mainmenu">
+                            <ul class="navbar-nav mr-0 mr-xl-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Avaleht <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Kõik toimingud</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Omanikule</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kooskõlastajale</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Arendajale</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Abi</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline search-bar">
+                                <label for="search" class="hidden-xs-up">Otsing</label>
+                                <input id="search" class="form-control" type="text" placeholder="Search">
+                            </form>
+                        </nav>
+                        <button class="menu-toggle">
+                       <span></span>
+                   </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="header-alert bg-primary">
+            <div class="container">
+                <div class="alert alert-info alert-dismissible fade show mb-0" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span class="fa fa-times"></span>
+  </button>
+                    <p class="h3 alert-heading">Planeeritud hooldustööd 14. mai 2015</p>
+                    <p class="mb-0">Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                </div>
+            </div>
+        </div>
+        <main id="content" class="container">
+    <section class="pagehead content-block" style="background-image:url(images/data/intro-bg.png)">
+        <header class="row">
+            <div class="col-12">
+                <h1>Portaali sisenemine</h1>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-12">
+                <div class="card-deck">
+                    <div class="card card-alt">
+                        <div class="card-title">
+                            Sisenege ID-kaardiga<span class="fa fa-question-circle" data-container="body" data-toggle="popover" data-placement="auto top" data-title="Euismod Cursus Justo" data-content="Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue." tabindex="0" data-original-title="" title=""></span>
+                        </div>
+                        <div class="card-block">
+                            <div class="card-text">Sisestage ID-kaart kaardilugejasse ja vajutage nuppu “Jätka”</div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="actions-bar row align-items-center">
+                                <div class="col">
+                                    <div class="buttons mt-3 justify-content-end">
+                                        <a class="btn btn-primary btn-lg btn-01" href="#" role="button">Jätka</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-alt">
+                        <form>
+                            <div class="card-title">
+                                Sisenege Mobiil ID-ga<span class="fa fa-question-circle" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Euismod Cursus Justo" data-content="Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue." tabindex="0" data-original-title="" title=""></span>
+                            </div>
+                            <div class="card-block">
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col col-form-label text-sm-right">Isikukood</label>
+                                    <div class="col">
+                                        <input class="form-control" type="text" id="example-text-input">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-text-input2" class="col col-form-label text-sm-right">Telefoninumber</label>
+                                    <div class="col">
+                                        <input class="form-control" type="text" id="example-text-input2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="actions-bar row align-items-center">
+                                    <div class="col">
+                                        <div class="buttons mt-0 justify-content-end">
+                                            <a class="btn btn-primary btn-lg btn-01" href="#" role="button">Jätka</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header ">
+                <h5 class="modal-title" id="exampleModalLabel">Ullamcorper Ligula Tristique</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    Sulge<span class="fa fa-times"></span>
+                </button>
+            </div>
+            <div class="modal-body pb-0">
+                <div class="form-group row">
+                    <label for="exampleSelect122" class="col-form-label text-sm-right">Select</label>
+                    <div class="col smaller">
+                        <select class="form-control" id="exampleSelect122">
+                            <option selected disabled>Palun valige...</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleTextarea22" class="col-form-label text-sm-right">Textarea</label>
+                    <div class="col">
+                        <textarea class="form-control" id="exampleTextarea22" rows="9"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer d-block">
+                <div class="actions-bar row align-items-center">
+                    <div class="col">
+                        <div class="links">
+                            <a href="#" data-dismiss="modal">Katkesta</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="buttons justify-content-end">
+                            <a class="btn btn-outline-primary btn-lg btn-01" href="#" role="button">Tagasi</a>
+                            <a class="btn btn-primary btn-lg btn-01" href="#" role="button">Edasi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal loader fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="images/ajax-loader.gif" alt="Loader">
+                <div class="block-content">
+                    <p class="mb-0"><strong>Laen andmeid, palun oodake…</strong></p>
+                    <a href="#" data-dismiss="modal">Katkestan päringu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 col-12">
+                <div class="block">
+                    <p class="head">Kontakt</p>
+                    <ul class="contacts-list list-unstyled">
+                        <li>
+                            <div class="item-single">
+                                <span class="fa fa-map-marker"></span>
+                                <div class="body">
+                                    <span class="title">Aadress</span>
+                                    <div class="content">Pärnu mnt.</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-single">
+                                <span class="fa fa-envelope"></span>
+                                <div class="body">
+                                    <span class="title">Kasutajatugi</span>
+                                    <div class="content"><a href="mailto:help@ria.ee">help@ria.ee</a></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-single">
+                                <span class="fa fa-phone"></span>
+                                <div class="body">
+                                    <span class="title">Üldtelefon</span>
+                                    <div class="content">663 0200</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-12">
+                <div class="block">
+                    <p class="head">Abiinfo &amp; lingid</p>
+                    <ul class="links-list list-unstyled">
+                        <li><a href="#">Korduma kippuvad küsimused</a></li>
+                        <li><a href="#">Videoõpetused</a></li>
+                        <li><a href="#">Sisukaart</a></li>
+                        <li><a href="#">Abi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="logo pl-md-3 text-center text-md-left mt-md-0 mt-3">
+                    <img src="images/base/logo2.png" alt="Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script src="bower_components/tether/dist/js/tether.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/chart.js/dist/Chart.bundle.min.js"></script>
+<script src="bower_components/select2/dist/js/select2.min.js"></script>
+<script src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="bower_components/datatables-responsive/js/dataTables.responsive.js"></script>
+<script src="bower_components/datatables/media/js/dataTables.bootstrap4.min.js"></script>
+<script src="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
