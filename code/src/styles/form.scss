@@ -159,6 +159,9 @@ textarea {
             }
         }
     }
+}  
+textarea {
+    min-width: 248px;
 }
 textarea {
     &.counter-element {
